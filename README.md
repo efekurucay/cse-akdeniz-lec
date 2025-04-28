@@ -12,24 +12,48 @@ Aşağıda, ilgili derslere ait GitHub depolarının bağlantılarını bulabili
 
 ## 1. Sınıf Dersleri
 
-* [ATA-102 Atatürk İlkeleri ve İnkılap Tarihi II](https://github.com/Akdeniz-CSE-Students/ATA-102-Atat-rk--lkeleri-ve--nk-lap-Tarihi-II) - Ders Kaynakları (2025 Bahar)
+
+### 1. Sınıf Güz
+
 * [CSE-101T Computer Programming I](https://github.com/Akdeniz-CSE-Students/CSE-101T-Computer-Programming-I) - Ders Kaynakları
 * [CSE-101L Computer Programming I Laboratory](https://github.com/Akdeniz-CSE-Students/CSE-101L-Computer-Programming-I-Laboratory) - Laboratuvar Kaynakları
+* introduction to cs
+* math 1
+* natural sciences
+* td1
+* physics 1
+* 
+### 1. Sınıf Bahar
+
 * [CSE-102T Computer Programming II](https://github.com/Akdeniz-CSE-Students/CSE-102T-Computer-Programming-II) - Ders Kaynakları
 * [CSE-102L Computer Programming II Laboratory](https://github.com/Akdeniz-CSE-Students/CSE-102L-Computer-Programming-II-Laboratory) - Laboratuvar Kaynakları
+* kariyer p
+* physics 2
+* statistic
+* td2
+* mat2
 
 ## 2. Sınıf Dersleri
 
+### 2. Sınıf Güz
 * [CSE-201 Data Structures](https://github.com/Akdeniz-CSE-Students/CSE-201-Data-Structures) - Ders Kaynakları
 * [CSE-203 Object Oriented Analysis and Design](https://github.com/Akdeniz-CSE-Students/CSE-203-Object-Oriented-Analysis-and-Design) - Ders Kaynakları
+* [CSE-211 Digital Design](https://github.com/Akdeniz-CSE-Students/CSE-211-Digital-Design) - Ders Kaynakları
+* [CSE-221 Discrete Mathematics I](https://github.com/Akdeniz-CSE-Students/CSE-221-Discrete-Mathematics-I) - Ders Kaynakları
+* [CSE-213 Microcontroller Programming](https://github.com/Akdeniz-CSE-Students/CSE-213-Microcontroller-Programming) - Ders Kaynakları
+* [ATA-102 Atatürk İlkeleri ve İnkılap Tarihi I](https://github.com/Akdeniz-CSE-Students/ATA-102-Atat-rk--lkeleri-ve--nk-lap-Tarihi-I) - Ders Kaynakları
+
+
+
+### 2. Sınıf Bahar
 * [CSE-204 Database Management Systems](https://github.com/Akdeniz-CSE-Students/CSE-204-Database-Management-Systems) - Ders Kaynakları (2025 Bahar)
 * [CSE-206 Computer Organization](https://github.com/Akdeniz-CSE-Students/CSE-206-Computer-Organization) - Ders Kaynakları (2025 Bahar)
-* [CSE-211 Digital Design](https://github.com/Akdeniz-CSE-Students/CSE-211-Digital-Design) - Ders Kaynakları
-* [CSE-213 Microcontroller Programming](https://github.com/Akdeniz-CSE-Students/CSE-213-Microcontroller-Programming) - Ders Kaynakları
 * [CSE-214 Advanced Application Development](https://github.com/Akdeniz-CSE-Students/CSE-214-Advanced-Application-Development) - Ders Kaynakları (2025 Bahar)
-* [CSE-221 Discrete Mathematics I](https://github.com/Akdeniz-CSE-Students/CSE-221-Discrete-Mathematics-I) - Ders Kaynakları
 * [CSE-222 Discrete Mathematics II](https://github.com/Akdeniz-CSE-Students/CSE-222-Discrete-Mathematics-II) - Ders Kaynakları (2025 Bahar)
 * [MAT-222 Linear Algebra](https://github.com/Akdeniz-CSE-Students/MAT-222-Linear-Algebra) - Ders Kaynakları (2025)
+* [ATA-102 Atatürk İlkeleri ve İnkılap Tarihi II](https://github.com/Akdeniz-CSE-Students/ATA-102-Atat-rk--lkeleri-ve--nk-lap-Tarihi-II) - Ders Kaynakları (2025 Bahar)
+
+
 
 ## 3. Sınıf Dersleri
 
