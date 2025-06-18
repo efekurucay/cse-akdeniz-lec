@@ -1,63 +1,119 @@
-
-
 # Akdeniz Üniversitesi Bilgisayar Mühendisliği Ders Notları ve Kaynakları
 
-Merhaba, Ben Yahya Efe Kuruçay, Akdeniz Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Bu depo, ders notlarımı, örnek sınav sorularını ve projelerimi paylaşmak amacıyla oluşturduğum [Akdeniz-CSE-Students](https://github.com/orgs/Akdeniz-CSE-Students) GitHub organizasyonundaki tüm repolara kolay erişim sağlamak için oluşturulmuştur.
+Merhaba, ben Yahya Efe Kuruçay, Akdeniz Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Bu depo, ders notlarımı, örnek sınav sorularını ve projelerimi paylaştığım [Akdeniz-CSE-Students](https://github.com/orgs/Akdeniz-CSE-Students) GitHub organizasyonundaki tüm ders materyallerine ve kaynak kodlarına kolay erişim sağlamak amacıyla oluşturulmuştur.
 
-GitHub'daki ders notlarımı ve projelerimi daha düzenli tutmak ve diğer öğrencilerin de katkıda bulunabilmesini sağlamak amacıyla bu organizasyonu kurdum. Burada paylaşılan tüm kaynaklar, Akdeniz Üniversitesi Bilgisayar Mühendisliği öğrencilerinin akademik gelişimine katkıda bulunmak için hazırlanmıştır.
+Bu depo, dersleri yıllara ve dönemlere göre hiyerarşik bir düzende organize eder. Her dersin kendi klasörü ve içerisinde ders detaylarını barındıran bir `README.md` dosyası bulunmaktadır. Ayrıca, her ders için ilgili GitHub deposuna bir bağlantı da mevcuttur.
 
-Bu depo, Akdeniz Üniversitesi Bilgisayar Mühendisliği bölümü derslerine ait notları, örnek sınav sorularını, projeleri ve diğer faydalı kaynakları barındıran [Akdeniz-CSE-Students](https://github.com/orgs/Akdeniz-CSE-Students) GitHub organizasyonundaki depolara kolay erişim sağlamak amacıyla oluşturulmuştur. Bu organizasyon, öğrencilerin ders materyallerine toplu halde ulaşabilmesi ve birbirlerine katkıda bulunabilmesi için bir platform sunmaktadır.
+## Dersler
 
-Aşağıda, ilgili derslere ait GitHub depolarının bağlantılarını bulabilirsiniz. Zamanla daha fazla ders ve kaynak eklenecektir.
+### 1. Yıl
 
-## 1. Sınıf Dersleri
+#### Güz Dönemi (1. Yarıyıl)
+| Ders Kodu | Ders Adı | Ders Detayları (Lokal) | GitHub Deposu |
+| :--- | :--- | :--- | :--- |
+| `CSE 101T` | Computer Programming I | [İçerik](./1st-Year/Fall/CSE-101T-Computer-Programming-I/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-101T-Computer-Programming-I) |
+| `CSE 101L` | Computer Programming I Laboratory | [İçerik](./1st-Year/Fall/CSE-101L-Computer-Programming-I-Laboratory/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-101L-Computer-Programming-I-Laboratory) |
+| `CSE 105` | Introduction to Computer Science | [İçerik](./1st-Year/Fall/CSE-105-Introduction-to-Computer-Science/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-105-Introduction-to-Computer-Science) |
+| `CSE 111` | Physics for Computer Science I | [İçerik](./1st-Year/Fall/CSE-111-Physics-for-Computer-Science-I/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-111-Physics-for-Computer-Science-I) |
+| `CSE 181` | Natural Sciences | [İçerik](./1st-Year/Fall/CSE-181-Natural-Sciences/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-181-Natural-Sciences) |
+| `MAT 163` | Mathematics for Engineering I | [İçerik](./1st-Year/Fall/MAT-163-Mathematics-for-Engineering-I/) | [Repo](https://github.com/Akdeniz-CSE-Students/MAT-163-Mathematics-for-Engineering-I) |
+| `TDB 101` | Türk Dili I | [İçerik](./1st-Year/Fall/TDB-101-Turk-Dili-I/) | [Repo](https://github.com/Akdeniz-CSE-Students/TDB-101-Turk-Dili-I) |
 
+#### Bahar Dönemi (2. Yarıyıl)
+| Ders Kodu | Ders Adı | Ders Detayları (Lokal) | GitHub Deposu |
+| :--- | :--- | :--- | :--- |
+| `CSE 102T` | Computer Programming II | [İçerik](./1st-Year/Spring/CSE-102T-Computer-Programming-II/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-102T-Computer-Programming-II) |
+| `CSE 102L` | Computer Programming II Laboratory | [İçerik](./1st-Year/Spring/CSE-102L-Computer-Programming-II-Laboratory/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-102L-Computer-Programming-II-Laboratory) |
+| `CSE 112` | Physics for Computer Science II | [İçerik](./1st-Year/Spring/CSE-112-Physics-for-Computer-Science-II/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-112-Physics-for-Computer-Science-II) |
+| `CSE 122` | Statistics for Engineering | [İçerik](./1st-Year/Spring/CSE-122-Statistics-for-Engineering/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-122-Statistics-for-Engineering) |
+| `KPD 102` | Kariyer Planlama | [İçerik](./1st-Year/Spring/KPD-102-Kariyer-Planlama/) | [Repo](https://github.com/Akdeniz-CSE-Students/KPD-102-Kariyer-Planlama) |
+| `MAT 164` | Mathematics for Engineering II | [İçerik](./1st-Year/Spring/MAT-164-Mathematics-for-Engineering-II/) | [Repo](https://github.com/Akdeniz-CSE-Students/MAT-164-Mathematics-for-Engineering-II) |
+| `TDB 102` | Türk Dili II | [İçerik](./1st-Year/Spring/TDB-102-Turk-Dili-II/) | [Repo](https://github.com/Akdeniz-CSE-Students/TDB-102-Turk-Dili-II) |
 
-### 1. Sınıf Güz
+### 2. Yıl
 
-* [CSE-101T Computer Programming I](https://github.com/Akdeniz-CSE-Students/CSE-101T-Computer-Programming-I) - Ders Kaynakları
-* [CSE-101L Computer Programming I Laboratory](https://github.com/Akdeniz-CSE-Students/CSE-101L-Computer-Programming-I-Laboratory) - Laboratuvar Kaynakları
-* introduction to cs
-* math 1
-* natural sciences
-* td1
-* physics 1
-* 
-### 1. Sınıf Bahar
+#### Güz Dönemi (3. Yarıyıl)
+| Ders Kodu | Ders Adı | Ders Detayları (Lokal) | GitHub Deposu |
+| :--- | :--- | :--- | :--- |
+| `ATA 101` | Atatürk İlkeleri ve İnkılap Tarihi I | [İçerik](./2nd-Year/Fall/ATA-101-Ataturk-Ilkeleri-ve-Inkilap-Tarihi-I/) | [Repo](https://github.com/Akdeniz-CSE-Students/ATA-101-Ataturk-Ilkeleri-ve-Inkilap-Tarihi-I) |
+| `CSE 201` | Data Structures | [İçerik](./2nd-Year/Fall/CSE-201-Data-Structures/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-201-Data-Structures) |
+| `CSE 203` | Object-Oriented Analysis and Design | [İçerik](./2nd-Year/Fall/CSE-203-Object-Oriented-Analysis-and-Design/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-203-Object-Oriented-Analysis-and-Design) |
+| `CSE 211` | Digital Design | [İçerik](./2nd-Year/Fall/CSE-211-Digital-Design/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-211-Digital-Design) |
+| `CSE 213` | Microcontroller Programming | [İçerik](./2nd-Year/Fall/CSE-213-Microcontroller-Programming/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-213-Microcontroller-Programming) |
+| `CSE 221` | Discrete Mathematics I | [İçerik](./2nd-Year/Fall/CSE-221-Discrete-Mathematics-I/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-221-Discrete-Mathematics-I) |
+| `PFE 201` | Eğitime Giriş | [İçerik](./2nd-Year/Fall/PFE-201-Egitime-Giris/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-201-Egitime-Giris) |
+| `PFE 203` | Eğitim Psikolojisi | [İçerik](./2nd-Year/Fall/PFE-203-Egitim-Psikolojisi/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-203-Egitim-Psikolojisi) |
 
-* [CSE-102T Computer Programming II](https://github.com/Akdeniz-CSE-Students/CSE-102T-Computer-Programming-II) - Ders Kaynakları
-* [CSE-102L Computer Programming II Laboratory](https://github.com/Akdeniz-CSE-Students/CSE-102L-Computer-Programming-II-Laboratory) - Laboratuvar Kaynakları
-* kariyer p
-* physics 2
-* statistic
-* td2
-* mat2
+#### Bahar Dönemi (4. Yarıyıl)
+| Ders Kodu | Ders Adı | Ders Detayları (Lokal) | GitHub Deposu |
+| :--- | :--- | :--- | :--- |
+| `ATA 102` | Atatürk İlkeleri ve İnkılap Tarihi II | [İçerik](./2nd-Year/Spring/ATA-102-Ataturk-Ilkeleri-ve-Inkilap-Tarihi-II/) | [Repo](https://github.com/Akdeniz-CSE-Students/ATA-102-Ataturk-Ilkeleri-ve-Inkilap-Tarihi-II) |
+| `CSE 204` | Database Systems | [İçerik](./2nd-Year/Spring/CSE-204-Database-Systems/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-204-Database-Systems) |
+| `CSE 206` | Computer Organization | [İçerik](./2nd-Year/Spring/CSE-206-Computer-Organization/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-206-Computer-Organization) |
+| `CSE 214` | Advanced Application Development | [İçerik](./2nd-Year/Spring/CSE-214-Advanced-Application-Development/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-214-Advanced-Application-Development) |
+| `CSE 222` | Discrete Mathematics II | [İçerik](./2nd-Year/Spring/CSE-222-Discrete-Mathematics-II/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-222-Discrete-Mathematics-II) |
+| `MAT 222` | Linear Algebra | [İçerik](./2nd-Year/Spring/MAT-222-Linear-Algebra/) | [Repo](https://github.com/Akdeniz-CSE-Students/MAT-222-Linear-Algebra) |
+| `PFE 202` | Öğretim İlke ve Yöntemleri | [İçerik](./2nd-Year/Spring/PFE-202-Ogretim-Ilke-ve-Yontemleri/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-202-Ogretim-Ilke-ve-Yontemleri) |
+| `PFE 204` | Öğretim Teknolojileri | [İçerik](./2nd-Year/Spring/PFE-204-Ogretim-Teknolojileri/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-204-Ogretim-Teknolojileri) |
 
-## 2. Sınıf Dersleri
+### 3. Yıl
 
-### 2. Sınıf Güz
-* [CSE-201 Data Structures](https://github.com/Akdeniz-CSE-Students/CSE-201-Data-Structures) - Ders Kaynakları
-* [CSE-203 Object Oriented Analysis and Design](https://github.com/Akdeniz-CSE-Students/CSE-203-Object-Oriented-Analysis-and-Design) - Ders Kaynakları
-* [CSE-211 Digital Design](https://github.com/Akdeniz-CSE-Students/CSE-211-Digital-Design) - Ders Kaynakları
-* [CSE-221 Discrete Mathematics I](https://github.com/Akdeniz-CSE-Students/CSE-221-Discrete-Mathematics-I) - Ders Kaynakları
-* [CSE-213 Microcontroller Programming](https://github.com/Akdeniz-CSE-Students/CSE-213-Microcontroller-Programming) - Ders Kaynakları
-* [ATA-102 Atatürk İlkeleri ve İnkılap Tarihi I](https://github.com/Akdeniz-CSE-Students/ATA-102-Atat-rk--lkeleri-ve--nk-lap-Tarihi-I) - Ders Kaynakları
+#### Güz Dönemi (5. Yarıyıl)
+| Ders Kodu | Ders Adı | Ders Detayları (Lokal) | GitHub Deposu |
+| :--- | :--- | :--- | :--- |
+| `CSE 301` | Algorithms | [İçerik](./3rd-Year/Fall/CSE-301-Algorithms/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-301-Algorithms) |
+| `CSE 303` | Fundamentals of Operating Systems | [İçerik](./3rd-Year/Fall/CSE-303-Fundamentals-of-Operating-Systems/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-303-Fundamentals-of-Operating-Systems) |
+| `CSE 321` | Statistical Inference and Computation | [İçerik](./3rd-Year/Fall/CSE-321-Statistical-Inference-and-Computation/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-321-Statistical-Inference-and-Computation) |
+| `CSE 335` | Web Programming | [İçerik](./3rd-Year/Fall/CSE-335-Web-Programming/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-335-Web-Programming) |
+| `CSE 341` | Fundamentals of System Administration | [İçerik](./3rd-Year/Fall/CSE-341-Fundamentals-of-System-Administration/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-341-Fundamentals-of-System-Administration) |
+| `CSE 351` | Design Patterns | [İçerik](./3rd-Year/Fall/CSE-351-Design-Patterns/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-351-Design-Patterns) |
+| `CSE 377` | Game Programming | [İçerik](./3rd-Year/Fall/CSE-377-Game-Programming/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-377-Game-Programming) |
+| `CSE 381` | Principles of User Interface Design | [İçerik](./3rd-Year/Fall/CSE-381-Principles-of-User-Interface-Design/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-381-Principles-of-User-Interface-Design) |
+| `CSE 409` | Introduction to Natural Language Processing | [İçerik](./3rd-Year/Fall/CSE-409-Introduction-to-Natural-Language-Processing/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-409-Introduction-to-Natural-Language-Processing) |
+| `CSE 415` | Fundamentals of Cloud Computing | [İçerik](./3rd-Year/Fall/CSE-415-Fundamentals-of-Cloud-Computing/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-415-Fundamentals-of-Cloud-Computing) |
+| `CSE 425` | Network Security | [İçerik](./3rd-Year/Fall/CSE-425-Network-Security/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-425-Network-Security) |
+| `CSE 433` | Advanced Mobile Programming | [İçerik](./3rd-Year/Fall/CSE-433-Advanced-Mobile-Programming/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-433-Advanced-Mobile-Programming) |
+| `CSE 443` | File Organization and Processing | [İçerik](./3rd-Year/Fall/CSE-443-File-Organization-and-Processing/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-443-File-Organization-and-Processing) |
+| `CSE 445` | Introduction to Machine Learning | [İçerik](./3rd-Year/Fall/CSE-445-Introduction-to-Machine-Learning/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-445-Introduction-to-Machine-Learning) |
+| `CSE 469` | Virtual Reality and Metaverse | [İçerik](./3rd-Year/Fall/CSE-469-Virtual-Reality-and-Metaverse/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-469-Virtual-Reality-and-Metaverse) |
+| `PFE 301` | Eğitimde Ölçme ve Değerlendirme | [İçerik](./3rd-Year/Fall/PFE-301-Egitimde-Olcme-ve-Degerlendirme/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-301-Egitimde-Olcme-ve-Degerlendirme) |
+| `PFE 303` | Rehberlik ve Özel Eğitim | [İçerik](./3rd-Year/Fall/PFE-303-Rehberlik-ve-Ozel-Egitim/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-303-Rehberlik-ve-Ozel-Egitim) |
 
+#### Bahar Dönemi (6. Yarıyıl)
+| Ders Kodu | Ders Adı | Ders Detayları (Lokal) | GitHub Deposu |
+| :--- | :--- | :--- | :--- |
+| `CSE 302` | Software Engineering | [İçerik](./3rd-Year/Spring/CSE-302-Software-Engineering/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-302-Software-Engineering) |
+| `CSE 304` | Computer Networks | [İçerik](./3rd-Year/Spring/CSE-304-Computer-Networks/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-304-Computer-Networks) |
+| `CSE 312` | Embedded Systems | [İçerik](./3rd-Year/Spring/CSE-312-Embedded-Systems/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-312-Embedded-Systems) |
+| `CSE 324` | Programming Languages | [İçerik](./3rd-Year/Spring/CSE-324-Programming-Languages/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-324-Programming-Languages) |
+| `CSE 344` | Scripting Languages | [İçerik](./3rd-Year/Spring/CSE-344-Scripting-Languages/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-344-Scripting-Languages) |
+| `CSE 352` | E-Commerce | [İçerik](./3rd-Year/Spring/CSE-352-E-Commerce/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-352-E-Commerce) |
+| `CSE 416` | Fundamentals of Robotics | [İçerik](./3rd-Year/Spring/CSE-416-Fundamentals-of-Robotics/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-416-Fundamentals-of-Robotics) |
+| `CSE 438` | Advanced Web Programming | [İçerik](./3rd-Year/Spring/CSE-438-Advanced-Web-Programming/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-438-Advanced-Web-Programming) |
+| `CSE 454` | Wireless and Mobile Networks | [İçerik](./3rd-Year/Spring/CSE-454-Wireless-and-Mobile-Networks/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-454-Wireless-and-Mobile-Networks) |
+| `CSE 456` | Data Mining | [İçerik](./3rd-Year/Spring/CSE-456-Data-Mining/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-456-Data-Mining) |
+| `CSE 466` | Human-Computer Interaction | [İçerik](./3rd-Year/Spring/CSE-466-Human-Computer-Interaction/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-466-Human-Computer-Interaction) |
+| `PFE 302` | Türk Eğitim Tarihi | [İçerik](./3rd-Year/Spring/PFE-302-Turk-Egitim-Tarihi/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-302-Turk-Egitim-Tarihi) |
+| `PFE 304` | Eğitim Sosyolojisi | [İçerik](./3rd-Year/Spring/PFE-304-Egitim-Sosyolojisi/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-304-Egitim-Sosyolojisi) |
 
+### 4. Yıl
 
-### 2. Sınıf Bahar
-* [CSE-204 Database Management Systems](https://github.com/Akdeniz-CSE-Students/CSE-204-Database-Management-Systems) - Ders Kaynakları (2025 Bahar)
-* [CSE-206 Computer Organization](https://github.com/Akdeniz-CSE-Students/CSE-206-Computer-Organization) - Ders Kaynakları (2025 Bahar)
-* [CSE-214 Advanced Application Development](https://github.com/Akdeniz-CSE-Students/CSE-214-Advanced-Application-Development) - Ders Kaynakları (2025 Bahar)
-* [CSE-222 Discrete Mathematics II](https://github.com/Akdeniz-CSE-Students/CSE-222-Discrete-Mathematics-II) - Ders Kaynakları (2025 Bahar)
-* [MAT-222 Linear Algebra](https://github.com/Akdeniz-CSE-Students/MAT-222-Linear-Algebra) - Ders Kaynakları (2025)
-* [ATA-102 Atatürk İlkeleri ve İnkılap Tarihi II](https://github.com/Akdeniz-CSE-Students/ATA-102-Atat-rk--lkeleri-ve--nk-lap-Tarihi-II) - Ders Kaynakları (2025 Bahar)
+#### Güz Dönemi (7. Yarıyıl)
+| Ders Kodu | Ders Adı | Ders Detayları (Lokal) | GitHub Deposu |
+| :--- | :--- | :--- | :--- |
+| `CSE 401` | Technical Communication | [İçerik](./4th-Year/Fall/CSE-401-Technical-Communication/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-401-Technical-Communication) |
+| `CSE 491` | Graduation Project I | [İçerik](./4th-Year/Fall/CSE-491-Graduation-Project-I/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-491-Graduation-Project-I) |
+| `PFE 401` | Türk Eğitim Sistemi ve Okul Yönetimi | [İçerik](./4th-Year/Fall/PFE-401-Turk-Egitim-Sistemi-ve-Okul-Yonetimi/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-401-Turk-Egitim-Sistemi-ve-Okul-Yonetimi) |
+| `PFE 403` | Sınıf Yönetimi | [İçerik](./4th-Year/Fall/PFE-403-Sinif-Yonetimi/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-403-Sinif-Yonetimi) |
 
+#### Bahar Dönemi (8. Yarıyıl)
+| Ders Kodu | Ders Adı | Ders Detayları (Lokal) | GitHub Deposu |
+| :--- | :--- | :--- | :--- |
+| `CSE 402` | Engineering Project Management | [İçerik](./4th-Year/Spring/CSE-402-Engineering-Project-Management/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-402-Engineering-Project-Management) |
+| `CSE 492` | Graduation Project II | [İçerik](./4th-Year/Spring/CSE-492-Graduation-Project-II/) | [Repo](https://github.com/Akdeniz-CSE-Students/CSE-492-Graduation-Project-II) |
+| `PFE 402` | Eğitimde Ahlak ve Etik | [İçerik](./4th-Year/Spring/PFE-402-Egitimde-Ahlak-ve-Etik/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-402-Egitimde-Ahlak-ve-Etik) |
+| `PFE 404` | Okul Dışı Öğrenme Ortamları | [İçerik](./4th-Year/Spring/PFE-404-Okul-Disi-Ogrenme-Ortamlari/) | [Repo](https://github.com/Akdeniz-CSE-Students/PFE-404-Okul-Disi-Ogrenme-Ortamlari) |
 
-
-## 3. Sınıf Dersleri
-
-## 4. Sınıf Dersleri
 
 ## Hakkımda
 
