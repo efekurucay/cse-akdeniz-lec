@@ -5,5 +5,6 @@
 *   **AKTS:** 4
 *   **Dersin Dili:** Türkçe
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Dersin Amacı Eğitimde ölçme ve değerlendirme ile ilgili temel kavramları açıklayabilme. Eğitimde ölçme ve değerlendirmenin farkında olabilme. Ölçme ve değerlendirme türlerini açıklayabilme. Bir ölçme aracında bulunması gereken teknik özellikleri açıklayabilme. Eğitimde kullanılan ölçme araçlarını hazırlayıp uygulayabilme. Test ve madde istatistiklerini yapabilme.
-*   **Dersin İçerikleri:** Eğitimde ölçme ve değerlendirmenin yeri ve önemi; ölçme ve değerlendirmeyle ilgili temel kavramlar; ölçme araçlarının psikometrik (geçerlik, güvenirlik, kullanışlılık) özellikleri; başarı testleri geliştirme ve uygulama; test sonuçlarının yorumlanması ve geri bildirim verme; test ve madde pu- anlarının analizi; değerlendirme ve not verme. 
+*   **Dersin Amacı:** Eğitimde ölçme ve değerlendirmenin temel kavramlarını, ölçme araçlarını geliştirme ve uygulama, test sonuçlarını analiz etme ve yorumlama becerilerini kazandırmaktır.
+*   **Dersin İçerikleri:** Ölçme ve değerlendirmenin temel kavramları, ölçmede hata, ölçme araçlarında bulunması gereken nitelikler (güvenirlik, geçerlik, kullanışlılık), test türleri, madde analizi, test puanlarının yorumlanması, not verme.
+*   **GitHub Deposu:** [PFE-301-Egitimde-Olcme-ve-Degerlendirme](https://github.com/Akdeniz-CSE-Students/PFE-301-Egitimde-Olcme-ve-Degerlendirme) 

@@ -5,5 +5,6 @@
 *   **AKTS:** 6
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Zorunlu
-*   **Dersin Amacı:** Bilgisayar Mühendisliği alanında algoritmaların zaman karmaşıklığını hesaplarken sıkça kullanılan matematiksel sayma yöntemlerini ve bu hesaplamaların yapılmasını sağlayan ayrık matematik prensiplerini öğrenmek.
-*   **Dersin İçerikleri:** Kombinasyon, permütasyon, mantık, tümevarım, güvercin yuvası ilkesi, dahilleme-hariçleme, üreten fonksiyonlar, çizgeler ve çizge kuramı 
+*   **Dersin Amacı:** Öğrencilere ayrık matematiğin ileri konularını ve bilgisayar bilimlerindeki uygulamalarını öğretmektir.
+*   **Dersin İçerikleri:** İleri sayma teknikleri, üreten fonksiyonlar, yinelenme bağıntıları, çizge teorisi, ağaçlar, Boolean cebri.
+*   **GitHub Deposu:** [CSE-222-Discrete-Mathematics-II](https://github.com/Akdeniz-CSE-Students/CSE-222-Discrete-Mathematics-II) 

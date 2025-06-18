@@ -6,5 +6,6 @@
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
 *   **Ön Koşul:** (CSE 204)
-*   **Dersin Amacı:** Öğrencilerin veri madenciliği tekniklerini ve algoritmalarını anlamalarını sağlamak.
-*   **Dersin İçerikleri:** Bu ders, veri madenciliğinin temel kavramlarını ve tekniklerini kapsar. Veri ön işleme, sınıflandırma, kümeleme, birliktelik kuralları ve anomali tespiti gibi konular işlenecektir. 
+*   **Dersin Amacı:** Öğrencilere büyük veri setlerinden anlamlı desenler, ilişkiler ve bilgiler keşfetmek için kullanılan veri madenciliği tekniklerini ve algoritmalarını öğretmektir.
+*   **Dersin İçerikleri:** Veri madenciliğine giriş, veri ön işleme, ilişki kuralları madenciliği (Apriori algoritması), sınıflandırma (karar ağaçları, Naive Bayes, destek vektör makineleri), kümeleme (k-means, hiyerarşik kümeleme), aykırı değer analizi, veri madenciliği araçları (örn. Weka, Python kütüphaneleri - Pandas, Scikit-learn).
+*   **GitHub Deposu:** [CSE-456-Data-Mining](https://github.com/Akdeniz-CSE-Students/CSE-456-Data-Mining) 

@@ -5,5 +5,7 @@
 *   **AKTS:** 3
 *   **Dersin Dili:** Türkçe
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Öğretmen adaylarının, Türk eğitim tarihinin başlangıcından günümüze kadarki süreçte geçirdiği evreleri ana hatlarıyla bilmelerini sağlamak.
-*   **Dersin İçerikleri:** Türk eğitim tarihinin, eğitim olgusu açısından önemi. İlk Türk devletlerinden günümüze Türk toplumlarında eğitimin amacı, kapsamı ve içeriğindeki süreklilik ve değişimi etkileyen faktörler. Türk eğitim tarihinde öne çıkan şahsiyetler, eğitim kurumları, öğretmen yetiştirme süreci ve eğitim düşüncesindeki gelişmeler.
+*   **Dersin Amacı:** Türk eğitim tarihinin başlangıcından günümüze kadar olan gelişimini, önemli şahsiyetleri, kurumları ve fikir akımlarını tarihsel bir perspektifle incelemektir.
+*   **Dersin İçerikleri:** İslamiyet öncesi Türklerde eğitim, İslamiyet sonrası ilk Türk devletlerinde eğitim (Karahanlılar, Selçuklular), Osmanlı İmparatorluğu'nda eğitim (medrese, enderun), Tanzimat ve Meşrutiyet dönemlerinde eğitim reformları, Cumhuriyet döneminde eğitim (Tevhid-i Tedrisat), köy enstitüleri, günümüz Türk eğitim sistemi.
+*   **GitHub Deposu:** [PFE-302-Turk-Egitim-Tarihi](https://github.com/Akdeniz-CSE-Students/PFE-302-Turk-Egitim-Tarihi)
+*   **Ders Notları:** [PDF](README.pdf)

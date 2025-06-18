@@ -5,5 +5,6 @@
 *   **AKTS:** 6
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Zorunlu
-*   **Dersin Amacı:** [İçerik belirtilmemiş]
-*   **Dersin İçerikleri:** [İçerik belirtilmemiş] 
+*   **Dersin Amacı:** Öğrencilere C# programlama dilini kullanarak gelişmiş masaüstü ve web uygulamaları geliştirmeyi öğretmektir.
+*   **Dersin İçerikleri:** C# temelleri, Windows Forms, WPF, ASP.NET, ADO.NET, Entity Framework, LINQ.
+*   **GitHub Deposu:** [CSE-214-Advanced-Application-Development](https://github.com/Akdeniz-CSE-Students/CSE-214-Advanced-Application-Development) 

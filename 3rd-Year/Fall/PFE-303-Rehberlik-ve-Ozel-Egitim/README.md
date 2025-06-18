@@ -5,5 +5,8 @@
 *   **AKTS:** 4
 *   **Dersin Dili:** Türkçe
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Bu dersin genel amacı, okullarda rehberlik sürecini ve özel eğitimi ana hatlarıyla tanıtmak olup başlıca konular: Eğitimde rehberlik hizmetlerinin yeri; rehberliğin kısa tarihçesi; rehberlikle ilgili model ve yaklaşımlar; gelişimsel rehberlik modelinin felsefesi, amacı, ilkeleri ve programı (kapsamlı gelişimsel rehberlik programı); rehberlik türleri (eğitsel, mesleki ve kişisel rehberlik); öğretmenin sınıf rehberliğindeki rol ve işlevi; özel eğitimle ilgili temel kavramlar; özel eğitimin ilkeleri ve tarihsel gelişimi; özel eğitimle ilgili yasal düzenlemeler; özel eğitimde tarama, yönlendirme, tanı ve değerlendirme; öğretimin bireyselleştirilmesi; kaynaştırma ve destek özel eğitim hizmetleri; ailenin özel eğitime katılımı ve işbirliği; rehberlik ve özel eğitimde etik ilkeler.
+*   **Dersin Amacı:** Rehberlik ve psikolojik danışmanlığın temel ilkelerini, öğrenci kişilik hizmetlerini ve özel gereksinimli öğrencilere yönelik eğitim yaklaşımlarını tanıtmaktır.
+*   **Dersin İçerikleri:** Rehberliğin tanımı ve amacı, rehberlik ilkeleri, öğrenci kişilik hizmetleri, okulda rehberlik ve psikolojik danışma hizmetleri, özel eğitimin tanımı ve ilkeleri, özel gereksinimli çocuklar, kaynaştırma eğitimi.
+*   **GitHub Deposu:** [PFE-303-Rehberlik-ve-Ozel-Egitim](https://github.com/Akdeniz-CSE-Students/PFE-303-Rehberlik-ve-Ozel-Egitim)
+
 *   **Dersin İçerikleri:** Özel eğitimle ilgili temel kavramlar; özel eğitimin ilkeleri ve tarihsel gelişimi; özel eğitimle ilgili yasal düzenlemeler; özel eğitimde tanı ve değerlendirme; öğretimin bireyselleştirilmesi; kaynaştırma ve destek özel eğitim hizmetleri; ailenin eğitime katılımı ve aileyle işbirliği; farklı yetersizlik ve yetenek gruplarının özellikleri; farklı gruplara yönelik eğitim yaklaşımları ve öğretim stratejileri; sınıf yönetiminde etkili stratejiler ve davranış yönetimi. 

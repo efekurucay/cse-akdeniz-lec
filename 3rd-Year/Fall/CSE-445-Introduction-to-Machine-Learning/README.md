@@ -7,4 +7,5 @@
 *   **Dersin Türü:** Seçmeli
 *   **Ön Koşul:** (CSE 321)
 *   **Dersin Amacı:** Bu dersin amaçları, makine öğrenmesindeki temel matematik, metodoloji ve algoritmaların temellerini kapsamlı bir biçimde ele almaktır.
-*   **Dersin İçerikleri:** Bu dersin içeriği veri madenciliği, Bayes istatistiği ve istatistiksel algoritmiklerden türeyen maksimum olabilirlik, lineer/lineer olmayan regresyon, aşırı öğrenme, regularizasyon, sınflandırma, optimizasyon ve öğreticisiz öğrenme gibi konulardan oluşmaktadır. 
+*   **Dersin İçerikleri:** Bu dersin içeriği veri madenciliği, Bayes istatistiği ve istatistiksel algoritmiklerden türeyen maksimum olabilirlik, lineer/lineer olmayan regresyon, aşırı öğrenme, regularizasyon, sınflandırma, optimizasyon ve öğreticisiz öğrenme gibi konulardan oluşmaktadır.
+*   **GitHub Deposu:** [CSE-445-Introduction-to-Machine-Learning](https://github.com/Akdeniz-CSE-Students/CSE-445-Introduction-to-Machine-Learning) 

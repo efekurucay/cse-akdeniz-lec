@@ -5,5 +5,7 @@
 *   **AKTS:** 3
 *   **Dersin Dili:** Türkçe
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Sosyolojinin temel kavramları; sosyolojinin öncüleri (İbn-i Haldun, A. Comte, K. Marx, E. Durkheim, M. Weber vd.) ve eğitim sosyolojisi; temel sosyolojik teoriler (işlevselcilik, çatışma, sembolik etkileşimcilik) açısından eğitim; toplumsal bir sistem olarak okul, okulun yapısı ve işlevleri; toplumsal süreçler (sosyalleşme, tabakalaşma, hareketlilik, değişme vd.) ve eğitim; toplumsal kurumlar (aile, din, ekonomi, siyaset) ve eğitim; kültür ve eğitim; Türkiye'de ve dünyada sosyal değişme ve eğitim; küreselleşme, kitle iletişim araçları ve eğitim.
+*   **Dersin Amacı:** Sosyolojinin temel kavramlarını ve teorilerini eğitim olgusuna uygulayarak, eğitim ile toplum arasındaki karmaşık ilişkiyi analiz etmektir.
+*   **Dersin İçerikleri:** Sosyoloji ve eğitim sosyolojisine giriş, temel sosyolojik teoriler (işlevselcilik, çatışma kuramı, sembolik etkileşimcilik) ve eğitime yansımaları, toplumsal yapı, kültür, toplumsallaşma ve eğitim, toplumsal tabakalaşma ve eğitimde fırsat eşitliği, eğitim ve toplumsal değişme, Türk eğitim sisteminin sosyolojik analizi.
+*   **GitHub Deposu:** [PFE-304-Egitim-Sosyolojisi](https://github.com/Akdeniz-CSE-Students/PFE-304-Egitim-Sosyolojisi)
 *   **Dersin İçerikleri:** Bu dersin amacı, öğrencilere eğitim sosyolojisinin temel kavramlarını ve kuramlarını tanıtmak, eğitim ve toplum arasındaki ilişkiyi incelemek ve eğitim sistemlerini sosyolojik bir perspektifle analiz etme becerisi kazandırmaktır. 

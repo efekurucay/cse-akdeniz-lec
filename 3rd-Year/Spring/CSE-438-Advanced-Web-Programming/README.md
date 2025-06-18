@@ -6,5 +6,6 @@
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
 *   **Ön Koşul:** (CSE 335)
-*   **Dersin Amacı:** Öğrencilerin ileri düzey web teknolojileri hakkında bilgi edinmelerini sağlamak.
-*   **Dersin İçerikleri:** Bu ders, ileri düzey web programlama konularını kapsar. Web servisleri, RESTful API'ler, tek sayfa uygulamaları (SPA) ve modern JavaScript çerçeveleri (React, Angular veya Vue.js gibi) gibi konulara odaklanılacaktır. 
+*   **Dersin Amacı:** Öğrencilere modern web mimarilerini, ileri düzey istemci ve sunucu taraflı teknolojileri ve ölçeklenebilir, güvenli ve yüksek performanslı web uygulamaları geliştirmeyi öğretmektir.
+*   **Dersin İçerikleri:** İleri JavaScript (asenkron programlama, modüller), tek sayfa uygulamaları (SPA), ileri düzey framework kullanımı (örn. React Hooks/Context, Angular Ngrx, Vuex), sunucu taraflı rendering (SSR) ve statik site oluşturma (SSG), GraphQL, WebSockets, mikroservis mimarileri, CI/CD pipeline'ları, web güvenliği açıkları ve önlemleri, performans optimizasyonu.
+*   **GitHub Deposu:** [CSE-438-Advanced-Web-Programming](https://github.com/Akdeniz-CSE-Students/CSE-438-Advanced-Web-Programming) 

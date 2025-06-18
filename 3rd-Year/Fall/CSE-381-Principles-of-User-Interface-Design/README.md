@@ -5,5 +5,6 @@
 *   **AKTS:** 6
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Bu ders kapsamında kullanıcı arayüzü tasarımıyla ilgili önemli prensipler incelenecek, arayüz projesi geliştirme süreçleriyle ilgili bilgi verilecektir.
-*   **Dersin İçerikleri:** Giriş, arayüzlerin tarihi, kullanılabilirlik, öğrenilebilirlik, görünürlük, verimlilik, kullanıcı hata kontrolü, kullanıcı merkezli tasarım, kullanıcı ve görev analizi, tasarım oluşturma, yazılım mimarisi, düzen, çıktı, girdi, test, deney, web, prototip, grafik tasarım, bilgi görselleştirme, renk, erişilebilirlik, uluslararasılaştırma, sezgisel değerlendirme, animasyon, girdi-çıktı teknolojileri. 
+*   **Dersin Amacı:** Öğrencilere kullanıcı merkezli tasarım prensiplerini ve kullanılabilir, erişilebilir ve keyifli kullanıcı arayüzleri oluşturma süreçlerini öğretmektir.
+*   **Dersin İçerikleri:** Kullanıcı arayüzü tasarımına giriş, kullanılabilirlik ilkeleri, kullanıcı araştırma yöntemleri (personalar, senaryolar), etkileşim tasarımı, bilgi mimarisi, görsel tasarım temelleri, prototipleme ve wireframing, kullanılabilirlik testi, erişilebilirlik, mobil ve web arayüz tasarımı.
+*   **GitHub Deposu:** [CSE-381-Principles-of-User-Interface-Design](https://github.com/Akdeniz-CSE-Students/CSE-381-Principles-of-User-Interface-Design) 

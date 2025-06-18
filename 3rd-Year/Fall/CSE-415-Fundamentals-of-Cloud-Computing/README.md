@@ -5,5 +5,6 @@
 *   **AKTS:** 6
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Bulut ortamlarında program yazmak ve bu ortamlara uygun yazılım mimarisi oluşturmaya yönelik teknikleri anlatır.
-*   **Dersin İçerikleri:** Bulut bilişim, Internet üzerinden sunucular, depolama, ağ, yazılım, veritabanı, uygulamalar vb. paylaşılan havuz, havuzu için isteğe bağlı bilgi işlem hizmeti sunan ölçeklenebilir bir hizmet tüketim ve dağıtım platformudur. Bu, minimum yönetim çabasıyla hızlı bir şekilde tedarik edilebilen ve serbest bırakılabilen, yapılandırılabilir bir hesaplama kaynakları havuzuna her yerde erişilebilen bir modeldir. Bu ders, temel bilgiler, yönetim sorunları, güvenlik sorunları ve gelecekteki araştırma eğilimleri de dahil olmak üzere bulut bilişimin çeşitli yönlerini tanıtacaktır. 
+*   **Dersin Amacı:** Öğrencilere bulut bilişimin temel kavramlarını, hizmet modellerini (IaaS, PaaS, SaaS), dağıtım modellerini ve temel teknolojilerini (sanallaştırma, konteynerler) öğretmektir.
+*   **Dersin İçerikleri:** Bulut bilişime giriş, sanallaştırma, bulut hizmet modelleri (IaaS, PaaS, SaaS), bulut dağıtım modelleri (Public, Private, Hybrid), büyük bulut sağlayıcıları (AWS, Azure, GCP), bulut depolama, bulut ağları, bulut güvenliği, konteyner teknolojisi (Docker), orkestrasyon (Kubernetes), sunucusuz bilişim (Serverless).
+*   **GitHub Deposu:** [CSE-415-Fundamentals-of-Cloud-Computing](https://github.com/Akdeniz-CSE-Students/CSE-415-Fundamentals-of-Cloud-Computing) 

@@ -6,5 +6,6 @@
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
 *   **Ön Koşul:** (CSE 381)
-*   **Dersin Amacı:** Öğrencilerin insan-bilgisayar etkileşiminin temel prensiplerini ve tasarım süreçlerini anlamalarını sağlamak.
-*   **Dersin İçerikleri:** Bu ders, insan-bilgisayar etkileşiminin (HCI) temel kavramlarını ve yöntemlerini kapsar. Kullanıcı merkezli tasarım, kullanılabilirlik mühendisliği, etkileşimli sistemlerin tasarımı ve değerlendirilmesi gibi konular işlenecektir. 
+*   **Dersin Amacı:** Öğrencilere insan ve bilgisayar arasındaki etkileşimin tasarımı, değerlendirilmesi ve uygulanmasıyla ilgili temel kavramları ve yöntemleri öğretmektir.
+*   **Dersin İçerikleri:** İnsan-bilgisayar etkileşimine giriş, etkileşimli sistemlerin tasarım prensipleri, kullanıcı merkezli tasarım, bilişsel modeller, görev analizi, prototipleme, kullanılabilirlik mühendisliği ve testi, etkileşim stilleri, yeni etkileşim teknolojileri.
+*   **GitHub Deposu:** [CSE-466-Human-Computer-Interaction](https://github.com/Akdeniz-CSE-Students/CSE-466-Human-Computer-Interaction) 

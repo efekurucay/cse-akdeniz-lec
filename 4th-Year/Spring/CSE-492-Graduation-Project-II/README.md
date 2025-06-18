@@ -6,5 +6,6 @@
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Zorunlu
 *   **Ön Koşul:** (CSE 491)
-*   **Dersin Amacı:** Öğrencilerin Graduation Project I dersinde başladıkları projeyi tamamlamalarını ve sonuçlarını bir rapor ve sunumla sunmalarını sağlamak.
-*   **Dersin İçerikleri:** Bu ders, bitirme projesinin ikinci ve son aşamasıdır. Öğrenciler projelerini geliştirir, test eder, sonuçları analiz eder ve proje raporunu yazarlar. Dönem sonunda projelerini bir jüri önünde sunarlar. 
+*   **Dersin Amacı:** Bitirme Projesi I'de tasarlanan mühendislik probleminin çözümünü gerçekleştirmek, test etmek ve sonuçları raporlayıp sunmaktır.
+*   **Dersin İçerikleri:** Proje geliştirme ve uygulama, test etme ve doğrulama, hata ayıklama, performans analizi, proje sonuçlarının raporlanması (bitirme tezi), proje sunumu ve savunması.
+*   **GitHub Deposu:** [CSE-492-Graduation-Project-II](https://github.com/Akdeniz-CSE-Students/CSE-492-Graduation-Project-II) 

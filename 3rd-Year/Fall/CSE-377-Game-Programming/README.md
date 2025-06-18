@@ -6,5 +6,6 @@
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
 *   **Ön Koşul:** (CSE 201)
-*   **Dersin Amacı:** Bu ders, oyun tasarımı ve programlamanın temel konseptlerini kapsar. Dönemin sonunda öğrenciler bir mobil veya PC oyunu geliştirmiş olacaklardır. Bu ders, Unity kullanarak oyun tasarlamanın mekanik, oynanabilirlik ve grafik yönlerine odaklanacaktır.
-*   **Dersin İçerikleri:** Oyun Tasarımı. Unity. Çok oyunculu oyunlar. Oyunlarda yapay zeka. Ses. Paketlenmesi. 
+*   **Dersin Amacı:** Öğrencilere oyun programlamanın temel prensiplerini ve modern bir oyun motoru (örn. Unity veya Unreal Engine) kullanarak 2D ve 3D oyunlar geliştirmeyi öğretmektir.
+*   **Dersin İçerikleri:** Oyun programlamaya giriş, oyun döngüsü, girdi yönetimi, 2D/3D grafik temelleri, sprite'lar ve animasyon, fizik motoru, çarpışma algılama, ses programlama, kullanıcı arayüzü (UI) tasarımı, oyun mimarisi, yapay zeka temelleri (yol bulma, durum makineleri).
+*   **GitHub Deposu:** [CSE-377-Game-Programming](https://github.com/Akdeniz-CSE-Students/CSE-377-Game-Programming) 

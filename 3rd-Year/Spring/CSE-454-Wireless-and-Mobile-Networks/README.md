@@ -6,5 +6,6 @@
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
 *   **Ön Koşul:** (CSE 304)
-*   **Dersin Amacı:** Öğrencilerin kablosuz ve mobil ağların temel prensiplerini anlamalarını sağlamak.
-*   **Dersin İçerikleri:** Bu ders, kablosuz ağların ve mobil iletişimin temel kavramlarını kapsar. Kablosuz iletişim teknolojileri, mobil ağ protokolleri, hücresel ağlar ve kablosuz güvenlik gibi konular işlenecektir. 
+*   **Dersin Amacı:** Öğrencilere kablosuz ve mobil ağların temel prensiplerini, teknolojilerini (Wi-Fi, hücresel ağlar), protokollerini ve bu ağlara özgü zorlukları öğretmektir.
+*   **Dersin İçerikleri:** Kablosuz iletişimin temelleri, kablosuz ağ standartları (IEEE 802.11 Wi-Fi, Bluetooth), hücresel ağ teknolojileri (GSM, LTE, 5G), mobil IP, kablosuz ağlarda MAC protokolleri, kablosuz ağ güvenliği, ad-hoc ağlar, kablosuz sensör ağları.
+*   **GitHub Deposu:** [CSE-454-Wireless-and-Mobile-Networks](https://github.com/Akdeniz-CSE-Students/CSE-454-Wireless-and-Mobile-Networks) 

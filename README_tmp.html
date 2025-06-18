@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>README.md</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+html,footer,header{
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Custom MD PDF CSS
+ */
+html,footer,header{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+
+ }
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///r%3A/2.Travail/1.Enseignement/Cours/_1.Outils/2.Developpement/1.SCSS/main.css" type="text/css"><link rel="stylesheet" href="file:///d%3A/rdaros/Cours/_1.Outils/2.Developpement/1.SCSS/main.css" type="text/css">
+</head>
+
+<body>
+    <h1 id="akdeniz-%C3%BCniversitesi-bilgisayar-m%C3%BChendisli%C4%9Fi-ders-notlar%C4%B1-ve-kaynaklar%C4%B1">Akdeniz Üniversitesi Bilgisayar Mühendisliği Ders Notları ve Kaynakları</h1>
+<p>Merhaba, ben Yahya Efe Kuruçay, Akdeniz Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Bu depo, ders notlarımı, örnek sınav sorularını ve projelerimi paylaştığım <a href="https://github.com/orgs/Akdeniz-CSE-Students">Akdeniz-CSE-Students</a> GitHub organizasyonundaki tüm ders materyallerine ve kaynak kodlarına kolay erişim sağlamak amacıyla oluşturulmuştur.</p>
+<p>Bu depo, dersleri yıllara ve dönemlere göre hiyerarşik bir düzende organize eder. Her dersin kendi klasörü ve içerisinde ders detaylarını barındıran bir <code>README.md</code> dosyası bulunmaktadır. Ayrıca, her ders için ilgili GitHub deposuna bir bağlantı da mevcuttur.</p>
+<h2 id="dersler">Dersler</h2>
+<h3 id="1-y%C4%B1l">1. Yıl</h3>
+<h4 id="g%C3%BCz-d%C3%B6nemi-1-yar%C4%B1y%C4%B1l">Güz Dönemi (1. Yarıyıl)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ders Kodu</th>
+<th style="text-align:left">Ders Adı</th>
+<th style="text-align:left">Ders Detayları (Lokal)</th>
+<th style="text-align:left">GitHub Deposu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>CSE 101T</code></td>
+<td style="text-align:left">Computer Programming I</td>
+<td style="text-align:left"><a href="./1st-Year/Fall/CSE-101T-Computer-Programming-I/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-101T-Computer-Programming-I">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 101L</code></td>
+<td style="text-align:left">Computer Programming I Laboratory</td>
+<td style="text-align:left"><a href="./1st-Year/Fall/CSE-101L-Computer-Programming-I-Laboratory/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-101L-Computer-Programming-I-Laboratory">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 105</code></td>
+<td style="text-align:left">Introduction to Computer Science</td>
+<td style="text-align:left"><a href="./1st-Year/Fall/CSE-105-Introduction-to-Computer-Science/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-105-Introduction-to-Computer-Science">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 111</code></td>
+<td style="text-align:left">Physics for Computer Science I</td>
+<td style="text-align:left"><a href="./1st-Year/Fall/CSE-111-Physics-for-Computer-Science-I/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-111-Physics-for-Computer-Science-I">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 181</code></td>
+<td style="text-align:left">Natural Sciences</td>
+<td style="text-align:left"><a href="./1st-Year/Fall/CSE-181-Natural-Sciences/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-181-Natural-Sciences">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>MAT 163</code></td>
+<td style="text-align:left">Mathematics for Engineering I</td>
+<td style="text-align:left"><a href="./1st-Year/Fall/MAT-163-Mathematics-for-Engineering-I/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/MAT-163-Mathematics-for-Engineering-I">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>TDB 101</code></td>
+<td style="text-align:left">Türk Dili I</td>
+<td style="text-align:left"><a href="./1st-Year/Fall/TDB-101-Turk-Dili-I/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/TDB-101-Turk-Dili-I">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="bahar-d%C3%B6nemi-2-yar%C4%B1y%C4%B1l">Bahar Dönemi (2. Yarıyıl)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ders Kodu</th>
+<th style="text-align:left">Ders Adı</th>
+<th style="text-align:left">Ders Detayları (Lokal)</th>
+<th style="text-align:left">GitHub Deposu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>CSE 102T</code></td>
+<td style="text-align:left">Computer Programming II</td>
+<td style="text-align:left"><a href="./1st-Year/Spring/CSE-102T-Computer-Programming-II/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-102T-Computer-Programming-II">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 102L</code></td>
+<td style="text-align:left">Computer Programming II Laboratory</td>
+<td style="text-align:left"><a href="./1st-Year/Spring/CSE-102L-Computer-Programming-II-Laboratory/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-102L-Computer-Programming-II-Laboratory">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 112</code></td>
+<td style="text-align:left">Physics for Computer Science II</td>
+<td style="text-align:left"><a href="./1st-Year/Spring/CSE-112-Physics-for-Computer-Science-II/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-112-Physics-for-Computer-Science-II">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 122</code></td>
+<td style="text-align:left">Statistics for Engineering</td>
+<td style="text-align:left"><a href="./1st-Year/Spring/CSE-122-Statistics-for-Engineering/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-122-Statistics-for-Engineering">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>KPD 102</code></td>
+<td style="text-align:left">Kariyer Planlama</td>
+<td style="text-align:left"><a href="./1st-Year/Spring/KPD-102-Kariyer-Planlama/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/KPD-102-Kariyer-Planlama">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>MAT 164</code></td>
+<td style="text-align:left">Mathematics for Engineering II</td>
+<td style="text-align:left"><a href="./1st-Year/Spring/MAT-164-Mathematics-for-Engineering-II/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/MAT-164-Mathematics-for-Engineering-II">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>TDB 102</code></td>
+<td style="text-align:left">Türk Dili II</td>
+<td style="text-align:left"><a href="./1st-Year/Spring/TDB-102-Turk-Dili-II/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/TDB-102-Turk-Dili-II">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-y%C4%B1l">2. Yıl</h3>
+<h4 id="g%C3%BCz-d%C3%B6nemi-3-yar%C4%B1y%C4%B1l">Güz Dönemi (3. Yarıyıl)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ders Kodu</th>
+<th style="text-align:left">Ders Adı</th>
+<th style="text-align:left">Ders Detayları (Lokal)</th>
+<th style="text-align:left">GitHub Deposu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>ATA 101</code></td>
+<td style="text-align:left">Atatürk İlkeleri ve İnkılap Tarihi I</td>
+<td style="text-align:left"><a href="./2nd-Year/Fall/ATA-101-Ataturk-Ilkeleri-ve-Inkilap-Tarihi-I/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/ATA-101-Ataturk-Ilkeleri-ve-Inkilap-Tarihi-I">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 201</code></td>
+<td style="text-align:left">Data Structures</td>
+<td style="text-align:left"><a href="./2nd-Year/Fall/CSE-201-Data-Structures/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-201-Data-Structures">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 203</code></td>
+<td style="text-align:left">Object-Oriented Analysis and Design</td>
+<td style="text-align:left"><a href="./2nd-Year/Fall/CSE-203-Object-Oriented-Analysis-and-Design/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-203-Object-Oriented-Analysis-and-Design">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 211</code></td>
+<td style="text-align:left">Digital Design</td>
+<td style="text-align:left"><a href="./2nd-Year/Fall/CSE-211-Digital-Design/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-211-Digital-Design">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 213</code></td>
+<td style="text-align:left">Microcontroller Programming</td>
+<td style="text-align:left"><a href="./2nd-Year/Fall/CSE-213-Microcontroller-Programming/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-213-Microcontroller-Programming">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 221</code></td>
+<td style="text-align:left">Discrete Mathematics I</td>
+<td style="text-align:left"><a href="./2nd-Year/Fall/CSE-221-Discrete-Mathematics-I/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-221-Discrete-Mathematics-I">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 201</code></td>
+<td style="text-align:left">Eğitime Giriş</td>
+<td style="text-align:left"><a href="./2nd-Year/Fall/PFE-201-Egitime-Giris/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-201-Egitime-Giris">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 203</code></td>
+<td style="text-align:left">Eğitim Psikolojisi</td>
+<td style="text-align:left"><a href="./2nd-Year/Fall/PFE-203-Egitim-Psikolojisi/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-203-Egitim-Psikolojisi">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="bahar-d%C3%B6nemi-4-yar%C4%B1y%C4%B1l">Bahar Dönemi (4. Yarıyıl)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ders Kodu</th>
+<th style="text-align:left">Ders Adı</th>
+<th style="text-align:left">Ders Detayları (Lokal)</th>
+<th style="text-align:left">GitHub Deposu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>ATA 102</code></td>
+<td style="text-align:left">Atatürk İlkeleri ve İnkılap Tarihi II</td>
+<td style="text-align:left"><a href="./2nd-Year/Spring/ATA-102-Ataturk-Ilkeleri-ve-Inkilap-Tarihi-II/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/ATA-102-Ataturk-Ilkeleri-ve-Inkilap-Tarihi-II">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 204</code></td>
+<td style="text-align:left">Database Systems</td>
+<td style="text-align:left"><a href="./2nd-Year/Spring/CSE-204-Database-Systems/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-204-Database-Systems">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 206</code></td>
+<td style="text-align:left">Computer Organization</td>
+<td style="text-align:left"><a href="./2nd-Year/Spring/CSE-206-Computer-Organization/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-206-Computer-Organization">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 214</code></td>
+<td style="text-align:left">Advanced Application Development</td>
+<td style="text-align:left"><a href="./2nd-Year/Spring/CSE-214-Advanced-Application-Development/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-214-Advanced-Application-Development">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 222</code></td>
+<td style="text-align:left">Discrete Mathematics II</td>
+<td style="text-align:left"><a href="./2nd-Year/Spring/CSE-222-Discrete-Mathematics-II/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-222-Discrete-Mathematics-II">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>MAT 222</code></td>
+<td style="text-align:left">Linear Algebra</td>
+<td style="text-align:left"><a href="./2nd-Year/Spring/MAT-222-Linear-Algebra/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/MAT-222-Linear-Algebra">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 202</code></td>
+<td style="text-align:left">Öğretim İlke ve Yöntemleri</td>
+<td style="text-align:left"><a href="./2nd-Year/Spring/PFE-202-Ogretim-Ilke-ve-Yontemleri/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-202-Ogretim-Ilke-ve-Yontemleri">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 204</code></td>
+<td style="text-align:left">Öğretim Teknolojileri</td>
+<td style="text-align:left"><a href="./2nd-Year/Spring/PFE-204-Ogretim-Teknolojileri/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-204-Ogretim-Teknolojileri">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-y%C4%B1l">3. Yıl</h3>
+<h4 id="g%C3%BCz-d%C3%B6nemi-5-yar%C4%B1y%C4%B1l">Güz Dönemi (5. Yarıyıl)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ders Kodu</th>
+<th style="text-align:left">Ders Adı</th>
+<th style="text-align:left">Ders Detayları (Lokal)</th>
+<th style="text-align:left">GitHub Deposu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>CSE 301</code></td>
+<td style="text-align:left">Algorithms</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-301-Algorithms/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-301-Algorithms">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 303</code></td>
+<td style="text-align:left">Fundamentals of Operating Systems</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-303-Fundamentals-of-Operating-Systems/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-303-Fundamentals-of-Operating-Systems">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 321</code></td>
+<td style="text-align:left">Statistical Inference and Computation</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-321-Statistical-Inference-and-Computation/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-321-Statistical-Inference-and-Computation">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 335</code></td>
+<td style="text-align:left">Web Programming</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-335-Web-Programming/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-335-Web-Programming">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 341</code></td>
+<td style="text-align:left">Fundamentals of System Administration</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-341-Fundamentals-of-System-Administration/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-341-Fundamentals-of-System-Administration">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 351</code></td>
+<td style="text-align:left">Design Patterns</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-351-Design-Patterns/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-351-Design-Patterns">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 377</code></td>
+<td style="text-align:left">Game Programming</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-377-Game-Programming/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-377-Game-Programming">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 381</code></td>
+<td style="text-align:left">Principles of User Interface Design</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-381-Principles-of-User-Interface-Design/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-381-Principles-of-User-Interface-Design">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 409</code></td>
+<td style="text-align:left">Introduction to Natural Language Processing</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-409-Introduction-to-Natural-Language-Processing/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-409-Introduction-to-Natural-Language-Processing">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 415</code></td>
+<td style="text-align:left">Fundamentals of Cloud Computing</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-415-Fundamentals-of-Cloud-Computing/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-415-Fundamentals-of-Cloud-Computing">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 425</code></td>
+<td style="text-align:left">Network Security</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-425-Network-Security/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-425-Network-Security">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 433</code></td>
+<td style="text-align:left">Advanced Mobile Programming</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-433-Advanced-Mobile-Programming/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-433-Advanced-Mobile-Programming">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 443</code></td>
+<td style="text-align:left">File Organization and Processing</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-443-File-Organization-and-Processing/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-443-File-Organization-and-Processing">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 445</code></td>
+<td style="text-align:left">Introduction to Machine Learning</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-445-Introduction-to-Machine-Learning/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-445-Introduction-to-Machine-Learning">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 469</code></td>
+<td style="text-align:left">Virtual Reality and Metaverse</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/CSE-469-Virtual-Reality-and-Metaverse/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-469-Virtual-Reality-and-Metaverse">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 301</code></td>
+<td style="text-align:left">Eğitimde Ölçme ve Değerlendirme</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/PFE-301-Egitimde-Olcme-ve-Degerlendirme/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-301-Egitimde-Olcme-ve-Degerlendirme">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 303</code></td>
+<td style="text-align:left">Rehberlik ve Özel Eğitim</td>
+<td style="text-align:left"><a href="./3rd-Year/Fall/PFE-303-Rehberlik-ve-Ozel-Egitim/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-303-Rehberlik-ve-Ozel-Egitim">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="bahar-d%C3%B6nemi-6-yar%C4%B1y%C4%B1l">Bahar Dönemi (6. Yarıyıl)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ders Kodu</th>
+<th style="text-align:left">Ders Adı</th>
+<th style="text-align:left">Ders Detayları (Lokal)</th>
+<th style="text-align:left">GitHub Deposu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>CSE 302</code></td>
+<td style="text-align:left">Software Engineering</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-302-Software-Engineering/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-302-Software-Engineering">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 304</code></td>
+<td style="text-align:left">Computer Networks</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-304-Computer-Networks/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-304-Computer-Networks">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 312</code></td>
+<td style="text-align:left">Embedded Systems</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-312-Embedded-Systems/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-312-Embedded-Systems">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 324</code></td>
+<td style="text-align:left">Programming Languages</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-324-Programming-Languages/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-324-Programming-Languages">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 344</code></td>
+<td style="text-align:left">Scripting Languages</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-344-Scripting-Languages/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-344-Scripting-Languages">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 352</code></td>
+<td style="text-align:left">E-Commerce</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-352-E-Commerce/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-352-E-Commerce">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 416</code></td>
+<td style="text-align:left">Fundamentals of Robotics</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-416-Fundamentals-of-Robotics/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-416-Fundamentals-of-Robotics">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 438</code></td>
+<td style="text-align:left">Advanced Web Programming</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-438-Advanced-Web-Programming/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-438-Advanced-Web-Programming">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 454</code></td>
+<td style="text-align:left">Wireless and Mobile Networks</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-454-Wireless-and-Mobile-Networks/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-454-Wireless-and-Mobile-Networks">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 456</code></td>
+<td style="text-align:left">Data Mining</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-456-Data-Mining/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-456-Data-Mining">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 466</code></td>
+<td style="text-align:left">Human-Computer Interaction</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/CSE-466-Human-Computer-Interaction/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-466-Human-Computer-Interaction">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 302</code></td>
+<td style="text-align:left">Türk Eğitim Tarihi</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/PFE-302-Turk-Egitim-Tarihi/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-302-Turk-Egitim-Tarihi">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 304</code></td>
+<td style="text-align:left">Eğitim Sosyolojisi</td>
+<td style="text-align:left"><a href="./3rd-Year/Spring/PFE-304-Egitim-Sosyolojisi/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-304-Egitim-Sosyolojisi">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-y%C4%B1l">4. Yıl</h3>
+<h4 id="g%C3%BCz-d%C3%B6nemi-7-yar%C4%B1y%C4%B1l">Güz Dönemi (7. Yarıyıl)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ders Kodu</th>
+<th style="text-align:left">Ders Adı</th>
+<th style="text-align:left">Ders Detayları (Lokal)</th>
+<th style="text-align:left">GitHub Deposu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>CSE 401</code></td>
+<td style="text-align:left">Technical Communication</td>
+<td style="text-align:left"><a href="./4th-Year/Fall/CSE-401-Technical-Communication/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-401-Technical-Communication">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 491</code></td>
+<td style="text-align:left">Graduation Project I</td>
+<td style="text-align:left"><a href="./4th-Year/Fall/CSE-491-Graduation-Project-I/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-491-Graduation-Project-I">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 401</code></td>
+<td style="text-align:left">Türk Eğitim Sistemi ve Okul Yönetimi</td>
+<td style="text-align:left"><a href="./4th-Year/Fall/PFE-401-Turk-Egitim-Sistemi-ve-Okul-Yonetimi/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-401-Turk-Egitim-Sistemi-ve-Okul-Yonetimi">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 403</code></td>
+<td style="text-align:left">Sınıf Yönetimi</td>
+<td style="text-align:left"><a href="./4th-Year/Fall/PFE-403-Sinif-Yonetimi/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-403-Sinif-Yonetimi">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="bahar-d%C3%B6nemi-8-yar%C4%B1y%C4%B1l">Bahar Dönemi (8. Yarıyıl)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Ders Kodu</th>
+<th style="text-align:left">Ders Adı</th>
+<th style="text-align:left">Ders Detayları (Lokal)</th>
+<th style="text-align:left">GitHub Deposu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>CSE 402</code></td>
+<td style="text-align:left">Engineering Project Management</td>
+<td style="text-align:left"><a href="./4th-Year/Spring/CSE-402-Engineering-Project-Management/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-402-Engineering-Project-Management">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>CSE 492</code></td>
+<td style="text-align:left">Graduation Project II</td>
+<td style="text-align:left"><a href="./4th-Year/Spring/CSE-492-Graduation-Project-II/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/CSE-492-Graduation-Project-II">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 402</code></td>
+<td style="text-align:left">Eğitimde Ahlak ve Etik</td>
+<td style="text-align:left"><a href="./4th-Year/Spring/PFE-402-Egitimde-Ahlak-ve-Etik/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-402-Egitimde-Ahlak-ve-Etik">Repo</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><code>PFE 404</code></td>
+<td style="text-align:left">Okul Dışı Öğrenme Ortamları</td>
+<td style="text-align:left"><a href="./4th-Year/Spring/PFE-404-Okul-Disi-Ogrenme-Ortamlari/">İçerik</a></td>
+<td style="text-align:left"><a href="https://github.com/Akdeniz-CSE-Students/PFE-404-Okul-Disi-Ogrenme-Ortamlari">Repo</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="hakk%C4%B1mda">Hakkımda</h2>
+<p>Ben Yahya Efe Kuruçay, Akdeniz Üniversitesi Bilgisayar Mühendisliği bölümü öğrencisiyim. Ders notlarımı ve projelerimi düzenli bir şekilde paylaşmak ve diğer öğrencilere yardımcı olmak amacıyla bu kaynakları bir araya getirdim. GitHub üzerinde daha fazla çalışmama ulaşmak için <a href="https://github.com/efekurucay">profilimi</a> veya <a href="https://efekurucay.com">websitemi</a> ziyaret edebilirsiniz.</p>
+<h2 id="katk%C4%B1da-bulunma">Katkıda Bulunma</h2>
+<p>Eğer siz de ders notlarınızı, projelerinizi veya diğer kaynaklarınızı paylaşmak isterseniz, <a href="https://github.com/orgs/Akdeniz-CSE-Students">Akdeniz-CSE-Students</a> organizasyonuna katılarak veya ilgili depolara katkıda bulunarak destek olabilirsiniz.</p>
+<p>Umarım bu kaynaklar tüm Akdeniz Üniversitesi Bilgisayar Mühendisliği öğrencileri için faydalı olur!</p>
+<h2 id="projeler-ve-di%C4%9Fer-kaynaklar">Projeler ve Diğer Kaynaklar</h2>
+<ul>
+<li><a href="https://github.com/Akdeniz-CSE-Students/eigen-population-interpolation">eigen-population-interpolation</a> - Lineer Cebir Ödevi</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/GreedJumpGame">GreedJumpGame</a> - Greed oyununun zıplama versiyonu</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/basic-course-management-system-python">basic-course-management-system-python</a> - Temel ders yönetim sistemi (Python)</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/GreedGame">GreedGame</a> - En yüksek skor algoritması</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/Fibonacci-Catalan-Lattice-Paths">Fibonacci-Catalan-Lattice-Paths</a> - Ayrık Matematik Projesi: Fibonacci ve Katalan Yolları</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/Computer-System-Simulator">Computer-System-Simulator</a> - Bilgisayar Sistemi Simülatörü</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/RPG-Character-Management-System">RPG-Character-Management-System</a> - RPG Karakter Yönetim Sistemi</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/Physics-Motion-Simulator">Physics-Motion-Simulator</a> - Fizik I Final Sınavı Ödevi Parçası</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/ElectricPotential-Capacitance-Calc-Python-Java">ElectricPotential-Capacitance-Calc-Python-Java</a> - Elektrik Potansiyeli ve Kapasitans Hesaplayıcı</li>
+<li><a href="https://github.com/Akdeniz-CSE-Students/Taylor-and-maclaurin-series">Taylor-and-maclaurin-series</a> - Taylor ve Maclaurin serileri denemeleri</li>
+</ul>
+
+</body>
+
+</html>

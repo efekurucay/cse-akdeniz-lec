@@ -6,4 +6,5 @@
 *   **Dersin Dili:** Türkçe
 *   **Dersin Türü:** Zorunlu
 *   **Dersin Amacı:** Türkçenin yapısı ve temel dil bilgisi özelliklerinin kavranması, okunan metinlerin gerektiği gibi anlaşılması, öğrencilerin söz varlığının genişletilmesi.
-*   **Dersin İçerikleri:** Türkçenin tarihi ve temel kuralları, örnek edebi ve bilimsel metinlerin okunması. 
+*   **Dersin İçerikleri:** Türkçenin tarihi ve temel kuralları, örnek edebi ve bilimsel metinlerin okunması.
+*   **GitHub Deposu:** [TDB-101-Turk-Dili-I](https://github.com/Akdeniz-CSE-Students/TDB-101-Turk-Dili-I) 

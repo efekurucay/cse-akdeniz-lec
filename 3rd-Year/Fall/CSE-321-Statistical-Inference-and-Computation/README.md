@@ -5,5 +5,6 @@
 *   **AKTS:** 6
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Zorunlu
-*   **Dersin Amacı:** Bu dersin amacı Bilgisayar Mühendisliği öğrencilerine olasılığın temel kurallarını ile bilgisayar bilimlerinde en çok kullanılan ayrık ve sürekli dağılımları öğretmektir.
-*   **Dersin İçerikleri:** Aksiyomatik olasılık kuramı, bağımsız olaylar, koşullu olasılık, ayrık rassal değişkenler ve dağılımlar, sürekli rassal değişkenler ve dağılımlar, beklenen değer, birleşik rassal değişkenler, limit teoremleri. 
+*   **Dersin Amacı:** Öğrencilere istatistiksel çıkarım ve hesaplama yöntemlerini kullanarak veriden anlamlı sonuçlar çıkarma becerisi kazandırmaktır.
+*   **Dersin İçerikleri:** Olasılık dağılımları, parametre tahmini, hipotez testleri, varyans analizi (ANOVA), regresyon, korelasyon, simülasyon, Monte Carlo yöntemleri.
+*   **GitHub Deposu:** [CSE-321-Statistical-Inference-and-Computation](https://github.com/Akdeniz-CSE-Students/CSE-321-Statistical-Inference-and-Computation) 

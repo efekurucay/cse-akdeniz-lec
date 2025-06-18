@@ -5,5 +5,6 @@
 *   **AKTS:** 3
 *   **Dersin Dili:** Türkçe
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Öğretmen adaylarının, okul dışı öğrenme ortamlarının eğitimdeki önemini ve rolünü kavramalarını, bu ortamları etkili bir şekilde kullanarak öğretim süreçlerini zenginleştirmelerini sağlamaktır.
-*   **Dersin İçerikleri:** Okul dışı öğrenme ve öğretim kavramları; okul dışı öğrenme ortamları (müzeler, bilim merkezleri, hayvanat bahçeleri, botanik bahçeleri, planetaryumlar, sanayi kuruluşları vb.); okul dışı öğrenme ortamlarının eğitimsel potansiyeli; okul dışı öğrenme etkinliklerinin planlanması, uygulanması ve değerlendirilmesi. 
+*   **Dersin Amacı:** Okul dışı öğrenme ortamlarının (müzeler, bilim merkezleri, doğal alanlar vb.) eğitimdeki rolünü ve bu ortamlarda etkili öğrenme etkinliklerinin nasıl tasarlanıp uygulanacağını öğretmektir.
+*   **Dersin İçerikleri:** Formal, non-formal ve informal öğrenme, okul dışı öğrenme ortamları ve özellikleri, müze eğitimi, bilim merkezleri ve şenlikleri, planetaryumlar, hayvanat bahçeleri, botanik bahçeleri, doğal ve tarihi mekanlarda öğrenme, okul dışı öğrenme etkinlikleri planlama, uygulama ve değerlendirme.
+*   **GitHub Deposu:** [PFE-404-Okul-Disi-Ogrenme-Ortamlari](https://github.com/Akdeniz-CSE-Students/PFE-404-Okul-Disi-Ogrenme-Ortamlari) 

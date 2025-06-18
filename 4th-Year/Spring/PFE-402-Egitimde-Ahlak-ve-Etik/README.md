@@ -5,5 +5,6 @@
 *   **AKTS:** 3
 *   **Dersin Dili:** Türkçe
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Öğretmen adaylarının, ahlak ve etikle ilgili temel kavramları ve ilkeleri bilmelerini, eğitim ve öğretim sürecinde uymaları gereken mesleki ve etik kuralları kavramalarını ve bu kurallara uygun davranışlar sergilemelerini sağlamaktır.
-*   **Dersin İçerikleri:** Ahlak ve etikle ilgili temel kavramlar; etik kuramlar; mesleki etik ve ilkeler; eğitim ve öğretmenlik mesleğinde etik; etik karar verme süreci; eğitimde karşılaşılan etik sorunlar ve çözüm yolları. 
+*   **Dersin Amacı:** Ahlak ve etik kavramlarını, temel etik kuramlarını ve öğretmenlik mesleği özelinde mesleki-etik ilke ve sorumlulukları kazandırmaktır.
+*   **Dersin İçerikleri:** Ahlak, etik ve değer kavramları, etik kuramlar, mesleki etik, öğretmenlik meslek etiği, eğitim ve öğretimde karşılaşılan etik sorunlar, etik karar verme süreçleri, Türkiye Kamu Görevlileri Etik Davranış İlkeleri.
+*   **GitHub Deposu:** [PFE-402-Egitimde-Ahlak-ve-Etik](https://github.com/Akdeniz-CSE-Students/PFE-402-Egitimde-Ahlak-ve-Etik) 

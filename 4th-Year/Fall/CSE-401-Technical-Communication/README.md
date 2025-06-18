@@ -5,5 +5,7 @@
 *   **AKTS:** 4
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Zorunlu
-*   **Dersin Amacı:** Öğrencilerin teknik iletişim becerilerini geliştirmek.
-*   **Dersin İçerikleri:** Bu ders, teknik rapor yazma, sunum yapma, proje önerisi hazırlama ve diğer profesyonel iletişim becerilerine odaklanır. 
+*   **Dersin Amacı:** Mühendislik alanında etkili yazılı ve sözlü iletişim becerileri kazandırmak.
+*   **Dersin İçerikleri:** Teknik rapor yazma, sunum hazırlama, proje dokümantasyonu, e-posta iletişimi.
+*   **GitHub Deposu:** [CSE-401-Technical-Communication](https://github.com/Akdeniz-CSE-Students/CSE-401-Technical-Communication)
+*   **Ders Notları:** [PDF](README.pdf) 

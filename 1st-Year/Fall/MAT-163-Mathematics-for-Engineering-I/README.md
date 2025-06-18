@@ -6,4 +6,5 @@
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Zorunlu
 *   **Dersin Amacı:** Fonksiyon, fonksiyonun limiti, fonksiyonun sürekliliği, türev kavramı ve türev kavramının uygulamalarını kazandırmaktır.
-*   **Dersin İçerikleri:** Sayılar, değişkenler ve fonksiyonlar, trigonometrik fonksiyonlar, üstel ve logaritmik fonksiyonlar, limit ve süreklilik, türev, türevin çeşitli uygulamaları. 
+*   **Dersin İçerikleri:** Sayılar, değişkenler ve fonksiyonlar, trigonometrik fonksiyonlar, üstel ve logaritmik fonksiyonlar, limit ve süreklilik, türev, türevin çeşitli uygulamaları.
+*   **GitHub Deposu:** [MAT-163-Mathematics-for-Engineering-I](https://github.com/Akdeniz-CSE-Students/MAT-163-Mathematics-for-Engineering-I) 

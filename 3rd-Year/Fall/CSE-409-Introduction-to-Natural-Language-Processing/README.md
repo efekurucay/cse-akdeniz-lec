@@ -6,4 +6,5 @@
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
 *   **Dersin Amacı:** Doğal Dil İşleme Yöntemleri Öğretilir
-*   **Dersin İçerikleri:** Metin Tanıma, Konu Özetleme, Dokuman Algılama ve Sınıflandırma Konuları, Makina Öğrenme İle Birlikte İşlenir 
+*   **Dersin İçerikleri:** Metin Tanıma, Konu Özetleme, Dokuman Algılama ve Sınıflandırma Konuları, Makina Öğrenme İle Birlikte İşlenir
+*   **GitHub Deposu:** [CSE-409-Introduction-to-Natural-Language-Processing](https://github.com/Akdeniz-CSE-Students/CSE-409-Introduction-to-Natural-Language-Processing) 

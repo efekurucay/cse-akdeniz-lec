@@ -5,5 +5,6 @@
 *   **AKTS:** 6
 *   **Dersin Dili:** İngilizce
 *   **Dersin Türü:** Seçmeli
-*   **Dersin Amacı:** Bu dersde en genel anlamda web programlamanın temelleri anlatılacaktır.
-*   **Dersin İçerikleri:** Hands on learning of the most commonly used web development technologies for basic web applications including HTML, CSS, Javascript, PHP, CodeIgnator, JDBC, Client-Server Architecture. 
+*   **Dersin Amacı:** Öğrencilere modern web teknolojilerini kullanarak dinamik ve etkileşimli web siteleri ve uygulamaları geliştirmeyi öğretmektir.
+*   **Dersin İçerikleri:** HTML5, CSS3, JavaScript (ES6+), DOM manipülasyonu, olay yönetimi, AJAX, JSON, istemci taraflı frameworkler (örn. React, Angular veya Vue.js), sunucu taraflı programlama (örn. Node.js/Express, PHP), veritabanı entegrasyonu, web servisleri (REST API).
+*   **GitHub Deposu:** [CSE-335-Web-Programming](https://github.com/Akdeniz-CSE-Students/CSE-335-Web-Programming) 
