@@ -138,3 +138,4 @@ Umarım bu kaynaklar tüm Akdeniz Üniversitesi Bilgisayar Mühendisliği öğre
 * [Physics-Motion-Simulator](https://github.com/Akdeniz-CSE-Students/Physics-Motion-Simulator) - Fizik I Final Sınavı Ödevi Parçası
 * [ElectricPotential-Capacitance-Calc-Python-Java](https://github.com/Akdeniz-CSE-Students/ElectricPotential-Capacitance-Calc-Python-Java) - Elektrik Potansiyeli ve Kapasitans Hesaplayıcı
 * [Taylor-and-maclaurin-series](https://github.com/Akdeniz-CSE-Students/Taylor-and-maclaurin-series) - Taylor ve Maclaurin serileri denemeleri
+.
