@@ -1,0 +1,39 @@
+CSE320 TCP Congestion Control Simulation
+Six-node topology ports: A=5001 B=5002 C=5003 D=5004 E=5005 F=5006
+Routing examples required by assignment:
+[A] Destination D, next hop B
+[B] Forwarding message from A to D, next hop D
+[D] Received message from A: hello_from_A_to_D
+
+[F] Destination E, next hop A
+[A] Forwarding message from F to E, next hop B
+[B] Forwarding message from F to E, next hop E
+[E] Received message from F: hello_from_F_to_E
+
+Algorithm: TCP Tahoe
+Initial cwnd=1.00 MSS, ssthresh=8.00 MSS
+Round | Event           | Phase/Action                         | cwnd   | ssthresh | Throughput
+------+-----------------+--------------------------------------+--------+----------+-----------
+    1 | NONE            | slow start: cwnd doubles             |   2.00 |     8.00 |      2.00
+    2 | NONE            | slow start: cwnd doubles             |   4.00 |     8.00 |      4.00
+    3 | NONE            | slow start: cwnd doubles             |   8.00 |     8.00 |      8.00
+    4 | NONE            | congestion avoidance: cwnd += 1 MSS  |   9.00 |     8.00 |      9.00
+    5 | TRIPLE_DUP_ACK  | fast retransmit, Tahoe resets cwnd=1 |   1.00 |     4.50 |      1.00
+    6 | NONE            | slow start: cwnd doubles             |   2.00 |     4.50 |      2.00
+    7 | NONE            | slow start: cwnd doubles             |   4.00 |     4.50 |      4.00
+    8 | PARTIAL_ACK     | partial ACK ignored/not applicable   |   4.00 |     4.50 |      4.00
+    9 | NONE            | slow start: cwnd doubles             |   8.00 |     4.50 |      8.00
+   10 | NONE            | congestion avoidance: cwnd += 1 MSS  |   9.00 |     4.50 |      9.00
+   11 | NONE            | congestion avoidance: cwnd += 1 MSS  |  10.00 |     4.50 |     10.00
+   12 | TIMEOUT         | timeout: ssthresh=cwnd/2, cwnd=1     |   1.00 |     5.00 |      1.00
+   13 | NONE            | slow start: cwnd doubles             |   2.00 |     5.00 |      2.00
+   14 | NONE            | slow start: cwnd doubles             |   4.00 |     5.00 |      4.00
+   15 | NONE            | slow start: cwnd doubles             |   8.00 |     5.00 |      8.00
+   16 | NONE            | congestion avoidance: cwnd += 1 MSS  |   9.00 |     5.00 |      9.00
+   17 | TRIPLE_DUP_ACK  | fast retransmit, Tahoe resets cwnd=1 |   1.00 |     4.50 |      1.00
+   18 | NONE            | slow start: cwnd doubles             |   2.00 |     4.50 |      2.00
+   19 | NONE            | slow start: cwnd doubles             |   4.00 |     4.50 |      4.00
+   20 | NONE            | slow start: cwnd doubles             |   8.00 |     4.50 |      8.00
+
+Summary: final cwnd=8.00 MSS, ssthresh=4.50 MSS
+
